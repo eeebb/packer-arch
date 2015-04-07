@@ -13,7 +13,7 @@ Overview
 My goal was to roughly duplicate the attributes from a
 [DigitalOcean](https://www.digitalocean.com/) Arch Linux droplet:
 
-* 64-bit
+* ~~64-bit~~ 32-bit
 * 20 GB disk
 * 512 MB memory
 * Only a single /root partition (ext4)

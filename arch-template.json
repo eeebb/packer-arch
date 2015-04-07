@@ -1,7 +1,7 @@
 {
     "variables": {
-        "iso_url": "https://mirrors.kernel.org/archlinux/iso/2015.03.01/archlinux-2015.03.01-dual.iso",
-        "iso_checksum": "3bfe96921809afe9b20938f2941c5ccf5cc97fe8",
+        "iso_url": "http://download.nus.edu.sg/mirror/arch/iso/2015.04.01/archlinux-2015.04.01-dual.iso",
+        "iso_checksum": "95122cbbde7252959bcea1c49fd797eb0eb25a4b",
         "iso_checksum_type": "sha1"
     },
     "builders": [
@@ -10,7 +10,7 @@
             "iso_url": "{{user `iso_url`}}",
             "iso_checksum": "{{user `iso_checksum`}}",
             "iso_checksum_type": "{{user `iso_checksum_type`}}",
-            "guest_os_type": "ArchLinux_64",
+            "guest_os_type": "ArchLinux",
             "guest_additions_mode": "disable",
             "http_directory": ".",
             "boot_wait": "5s",
